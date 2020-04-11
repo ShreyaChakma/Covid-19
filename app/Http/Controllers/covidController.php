@@ -61,7 +61,9 @@ class covidController extends Controller
 
 
  public function test_country(){
-    return \Carbon\Carbon::createFromTimestamp('1586453774309')->toDateTimeString();
+   $api_url_countries = 'https://corona.lmao.ninja/countries';
+   $countries_data = json_decode(file_get_contents($api_url_countries));
+    print_r( $countries_data);
  }
 
 

@@ -1,0 +1,76 @@
+
+.col-md-4 {
+    left: 40px;
+    top: 50px;
+}
+
+.table-group {
+    position: relative;
+    top: 80px;
+
+}
+
+.red_mark {
+    background: red;
+    color: white;
+}
+
+.alert_mark {
+    background: #e8d661;
+    color: black;
+}
+
+.title {
+    text-align: center;
+    display: inline-block;
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+
+.logo_section {
+    text-align: center;
+    padding-top: 30px;
+
+}
+
+.footer {
+    width: 100%;
+    height: 70px;
+    background: #596fde;
+    text-align: center;
+}
+
+.footer>h5 {
+    color: black;
+    text-align: center;
+    padding-top: 4px;
+
+}
+
+.container {
+    margin-bottom: 80px;
+}
+
+.navbar {
+    height: 60px;
+}
+
+.nav-custom-color {
+    background: #596fde;
+}
+
+.nav-link {
+    right: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+.link {
+    padding-top: 10px;
+}
+
+marquee {
+    font-size: 20px;
+    color: #092b99;
+}
+
