@@ -17,7 +17,7 @@ class covidController extends Controller
      * =======================================
      */
 
-    $api_url = 'https://corona.lmao.ninja/all';
+    $api_url = 'https://corona.lmao.ninja/v2/all';
 
     $data = file_get_contents($api_url);
 
@@ -34,7 +34,7 @@ class covidController extends Controller
      * ==========================
      */
 
-    $api_url_countries = 'https://corona.lmao.ninja/countries';
+    $api_url_countries = 'https://corona.lmao.ninja/v2/countries';
 
     $countries_data = json_decode(file_get_contents($api_url_countries));
 
@@ -49,7 +49,7 @@ class covidController extends Controller
 
  public function test_code(){
 
-    $api_url = 'https://corona.lmao.ninja/all';
+    $api_url = 'https://corona.lmao.ninja/v2/all';
     $data = file_get_contents($api_url);
 
     $arr = json_decode($data);
@@ -61,7 +61,7 @@ class covidController extends Controller
 
 
  public function test_country(){
-   $api_url_countries = 'https://corona.lmao.ninja/countries';
+   $api_url_countries = 'https://corona.lmao.ninja/v2/countries';
    $countries_data = json_decode(file_get_contents($api_url_countries));
     print_r( $countries_data);
  }
